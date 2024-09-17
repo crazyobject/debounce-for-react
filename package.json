@@ -1,0 +1,35 @@
+{
+  "name": "debounce-for-react",
+  "version": "1.0.2",
+  "description": "A simple and lightweight React hook for debouncing values. Ideal for optimizing performance in search fields, input handling, and other scenarios where you want to limit the rate of updates.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"no tests yet\"",
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "debounce",
+    "hook",
+    "hooks",
+    "react-hooks",
+    "react-hook",
+    "performance",
+    "utility",
+    "useDebounce",
+    "debounce-hook",
+    "react-utils",
+    "react-debounce",
+    "debounce-for-react",
+    "simple-debounce"
+  ],
+  "author": "dhaneshmane <dhaneshmane123@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
